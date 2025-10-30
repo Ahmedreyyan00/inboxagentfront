@@ -10,7 +10,7 @@ console.log("- Environment:", process.env.NODE_ENV);
 console.log("- With Credentials:", true);
 
 const axiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || 'https://api.smartle.eu/',
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL ,
   // baseURL: "http://localhost:5000",
   headers: {
     "Content-Type": "application/json",

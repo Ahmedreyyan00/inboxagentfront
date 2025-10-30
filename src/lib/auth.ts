@@ -11,7 +11,7 @@ if (!process.env.NEXTAUTH_SECRET) {
 if (!process.env.NEXTAUTH_URL) {
   // Use the current host in production, localhost in development
   if (process.env.NODE_ENV === "production") {
-    process.env.NEXTAUTH_URL = "https://app.smartle.be";
+    process.env.NEXTAUTH_URL = "https://inboxagentfront.vercel.app";
   } else {
     process.env.NEXTAUTH_URL = "http://localhost:3000";
   }
