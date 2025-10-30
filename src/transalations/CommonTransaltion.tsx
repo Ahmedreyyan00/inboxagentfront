@@ -175,7 +175,7 @@ export const AccountSettingsTransalation = {
     confirmPassword: "Confirm Password",
     updatePassword: "Update Password",
     thirdPartyIntegrations: "Third-Party Integrations",
-    thirdPartySubHeading: "Manage services connected to your Smartle account.",
+    thirdPartySubHeading: "Manage services connected to your Inbox agentaccount.",
     connectNewAccount: "Connect New Account",
     reconnect: "Reconnect",
     disconnect: "Disconnect",
@@ -368,7 +368,7 @@ export const DashboardTranslations = {
     Dashboard: "Dashboard",
     welcomeBack: "Welcome Back",
     subTitleDashboard:
-      "Here's what Smartle has captured and delivered this week.",
+      "Here's what Inbox agenthas captured and delivered this week.",
     thisWeek: "this week",
     totalInvoicesThisMonth: "Total Invoices This Month",
     sentToAccountant: "Sent to Accountant",
@@ -397,7 +397,7 @@ export const DashboardTranslations = {
   fr: {
     Dashboard: "Tableau de bord",
     welcomeBack: "Bon retour",
-    subTitleDashboard: "Voici ce que Smartle a capturé et livré cette semaine.",
+    subTitleDashboard: "Voici ce que Inbox agenta capturé et livré cette semaine.",
     thisWeek: "cette semaine",
     totalInvoicesThisMonth: "Total des factures ce mois-ci",
     sentToAccountant: "Envoyé au comptable",
@@ -427,7 +427,7 @@ export const DashboardTranslations = {
     Dashboard: "Dashboard",
     welcomeBack: "Welkom terug",
     subTitleDashboard:
-      "Dit is wat Smartle deze week heeft vastgelegd en geleverd.",
+      "Dit is wat Inbox agentdeze week heeft vastgelegd en geleverd.",
     thisWeek: "deze week",
     totalInvoicesThisMonth: "Totaal aantal facturen deze maand",
     sentToAccountant: "Verzonden naar accountant",
@@ -462,14 +462,14 @@ export const EmailIntegrationTranslations = {
       "Connect your email account and securely automate invoice scanning.",
     yourEmailConnection: "Your Email Connection",
     yourEmailConnectionDesc:
-      "Connect your email account so Smartle can scan your inbox for invoices.",
+      "Connect your email account so Inbox Agent can scan your inbox for invoices.",
     startDateScan: "Start date for scan",
     disclaimerSmartle:
-      "Smartle only reads invoices. Your emails remain private.",
+      "Inbox agent only reads invoices. Your emails remain private.",
     recentSyncs: "Recent Syncs",
     downloadFullLog: "Download Full Log",
     useSecureOauth:
-      "We use secure OAuth2 access. Smartle never stores your email password or reads unrelated emails.",
+      "We use secure OAuth2 access. Inbox agentnever stores your email password or reads unrelated emails.",
     youcanScanUpto: "You can scan up to 1 month of past emails.",
 
     // Added new text
@@ -483,14 +483,14 @@ export const EmailIntegrationTranslations = {
       "Connectez votre compte e-mail et automatisez en toute sécurité la numérisation des factures.",
     yourEmailConnection: "Votre connexion e-mail",
     yourEmailConnectionDesc:
-      "Connectez votre compte e-mail pour que Smartle puisse analyser votre boîte de réception à la recherche de factures.",
+      "Connectez votre compte e-mail pour que Inbox agentpuisse analyser votre boîte de réception à la recherche de factures.",
     startDateScan: "Date de début de l'analyse",
     disclaimerSmartle:
-      "Smartle lit uniquement les factures. Vos e-mails restent privés.",
+      "Inbox agentlit uniquement les factures. Vos e-mails restent privés.",
     recentSyncs: "Synchronisations récentes",
     downloadFullLog: "Télécharger le journal complet",
     useSecureOauth:
-      "Nous utilisons un accès OAuth2 sécurisé. Smartle ne stocke jamais votre mot de passe e-mail et ne lit pas les e-mails non pertinents.",
+      "Nous utilisons un accès OAuth2 sécurisé. Inbox agentne stocke jamais votre mot de passe e-mail et ne lit pas les e-mails non pertinents.",
     youcanScanUpto: "Vous pouvez analyser jusqu'à 1 mois d'e-mails passés.",
 
     // Added new text
@@ -504,14 +504,14 @@ export const EmailIntegrationTranslations = {
       "Verbind je e-mailaccount en automatiseer veilig het scannen van facturen.",
     yourEmailConnection: "Jouw e-mailverbinding",
     yourEmailConnectionDesc:
-      "Verbind je e-mailaccount zodat Smartle je inbox kan scannen op facturen.",
+      "Verbind je e-mailaccount zodat Inbox agentje inbox kan scannen op facturen.",
     startDateScan: "Startdatum voor scan",
     disclaimerSmartle:
-      "Smartle leest alleen facturen. Je e-mails blijven privé.",
+      "Inbox agentleest alleen facturen. Je e-mails blijven privé.",
     recentSyncs: "Recente synchronisaties",
     downloadFullLog: "Volledig logboek downloaden",
     useSecureOauth:
-      "Wij gebruiken veilige OAuth2-toegang. Smartle slaat je e-mailwachtwoord nooit op en leest geen ongerelateerde e-mails.",
+      "Wij gebruiken veilige OAuth2-toegang. Inbox agentslaat je e-mailwachtwoord nooit op en leest geen ongerelateerde e-mails.",
     youcanScanUpto: "Je kunt tot 1 maand aan eerdere e-mails scannen.",
 
     // Added new text
@@ -624,10 +624,10 @@ export const AutomationSettingsTranslations = {
 
     automationSettings: "Automation Settings",
     configureSmartle:
-      "Configure how Smartle processes and forwards your invoices.",
+      "Configure how Inbox agentprocesses and forwards your invoices.",
     emailScanFrequency: "Email Scan Frequency",
     scanInboxSmartle:
-      "Set how often Smartle should scan your connected inboxes for new invoices.",
+      "Set how often Inbox agentshould scan your connected inboxes for new invoices.",
     Daily: "Daily",
     Every: "Every",
     Days: "Days",
@@ -663,10 +663,10 @@ export const AutomationSettingsTranslations = {
       loadingAutomationSettings: "Chargement des paramètres d'automatisation...",
 
     configureSmartle:
-      "Configurez comment Smartle traite et transfère vos factures.",
+      "Configurez comment Inbox agenttraite et transfère vos factures.",
     emailScanFrequency: "Fréquence de balayage des e-mails",
     scanInboxSmartle:
-      "Définissez la fréquence à laquelle Smartle doit analyser vos boîtes de réception connectées pour détecter de nouvelles factures.",
+      "Définissez la fréquence à laquelle Inbox agentdoit analyser vos boîtes de réception connectées pour détecter de nouvelles factures.",
     Daily: "Quotidien",
     Every: "Tous les",
     Days: "jours",
@@ -703,10 +703,10 @@ export const AutomationSettingsTranslations = {
       loadingAutomationSettings: "Automatiseringsinstellingen laden...",
 
     configureSmartle:
-      "Configureer hoe Smartle uw facturen verwerkt en doorstuurt.",
+      "Configureer hoe Inbox agentuw facturen verwerkt en doorstuurt.",
     emailScanFrequency: "E-mailscanfrequentie",
     scanInboxSmartle:
-      "Stel in hoe vaak Smartle uw gekoppelde inboxen moet scannen op nieuwe facturen.",
+      "Stel in hoe vaak Inbox agentuw gekoppelde inboxen moet scannen op nieuwe facturen.",
     Daily: "Dagelijks",
     Every: "Elke",
     Days: "dagen",
@@ -742,7 +742,7 @@ export const AutomationSettingsTranslations = {
 export const HelpCenterTranslations = {
   en: {
     HelpCenter: "Help Center",
-    helpCenterSubheading: "Access support resources, tutorials, and contact options for Smartle assistance.",
+    helpCenterSubheading: "Access support resources, tutorials, and contact options for Inbox agentassistance.",
     findQuickAnswers: "Find quick answers to common questions.",
     Search: "Search",
     invoicesAndForwarding: "Invoices & Forwarding",
@@ -753,9 +753,9 @@ export const HelpCenterTranslations = {
     mostOfSmartle: "Learn how to make the most of Smartle.",
 
     // Added from your section
-    smartleSystemStatus: "Smartle System Status",
+    smartleSystemStatus: "Inbox agentSystem Status",
     operational: "Operational",
-    viewCurrentStatus: "View the current status of Smartle services.",
+    viewCurrentStatus: "View the current status of Inbox agentservices.",
     apiServer: "API Server",
     emailIngestion: "Email Ingestion",
     lastIncident: "Last incident: 2025-05-16 14:32 UTC",
@@ -860,10 +860,10 @@ export const HelpCenterTranslations = {
     accountAndBilling: "Account en facturatie",
     automationSettings: "Automatiseringsinstellingen",
     videoGuidesTitle: "Videogidsen en rondleidingen",
-    mostOfSmartle: "Leer hoe je het meeste uit Smartle kunt halen.",
+    mostOfSmartle: "Leer hoe je het meeste uit Inbox agentkunt halen.",
 
     // Added from your section
-    smartleSystemStatus: "Smartle systeemstatus",
+    smartleSystemStatus: "Inbox agentsysteemstatus",
     operational: "Operationeel",
     viewCurrentStatus: "Bekijk de huidige status van Smartle-services.",
     apiServer: "API-server",
@@ -943,7 +943,7 @@ export const ModalTranslations = {
     
     // IMAP Email Connected Modal
     imapEmailConnected: "IMAP Email Connected!",
-    scanningInboxDescription: "Smartle is securely scanning your inbox for invoices. This may take a few minutes.",
+    scanningInboxDescription: "Inbox agentis securely scanning your inbox for invoices. This may take a few minutes.",
     scanningEmails: "Scanning emails…",
     complete: "complete",
     emailsScanned: "Emails scanned",
@@ -951,7 +951,7 @@ export const ModalTranslations = {
     estimatedTimeRemaining: "Estimated time remaining",
     pauseScan: "Pause Scan",
     cancelSetup: "Cancel Setup",
-    privacyNote: "Your emails remain private. Smartle only scans invoices and never stores your password.",
+    privacyNote: "Your emails remain private. Inbox agentonly scans invoices and never stores your password.",
     
     // IMAP Email Success Modal
     emailSettingsVerified: "Email Settings Verified",
@@ -1017,7 +1017,7 @@ export const ModalTranslations = {
     
     // IMAP Email Connected Modal
     imapEmailConnected: "E-mail IMAP connecté !",
-    scanningInboxDescription: "Smartle analyse en toute sécurité votre boîte de réception à la recherche de factures. Cela peut prendre quelques minutes.",
+    scanningInboxDescription: "Inbox agentanalyse en toute sécurité votre boîte de réception à la recherche de factures. Cela peut prendre quelques minutes.",
     scanningEmails: "Analyse des e-mails…",
     complete: "terminé",
     emailsScanned: "E-mails analysés",
@@ -1025,7 +1025,7 @@ export const ModalTranslations = {
     estimatedTimeRemaining: "Temps restant estimé",
     pauseScan: "Pause de l'analyse",
     cancelSetup: "Annuler la configuration",
-    privacyNote: "Vos e-mails restent privés. Smartle ne scanne que les factures et ne stocke jamais votre mot de passe.",
+    privacyNote: "Vos e-mails restent privés. Inbox agentne scanne que les factures et ne stocke jamais votre mot de passe.",
     
     // IMAP Email Success Modal
     emailSettingsVerified: "Paramètres d'e-mail vérifiés",
@@ -1091,7 +1091,7 @@ export const ModalTranslations = {
     
     // IMAP Email Connected Modal
     imapEmailConnected: "IMAP E-mail verbonden!",
-    scanningInboxDescription: "Smartle scant veilig je inbox op facturen. Dit kan enkele minuten duren.",
+    scanningInboxDescription: "Inbox agentscant veilig je inbox op facturen. Dit kan enkele minuten duren.",
     scanningEmails: "E-mails scannen…",
     complete: "voltooid",
     emailsScanned: "E-mails gescand",
@@ -1099,7 +1099,7 @@ export const ModalTranslations = {
     estimatedTimeRemaining: "Geschatte resterende tijd",
     pauseScan: "Scan pauzeren",
     cancelSetup: "Setup annuleren",
-    privacyNote: "Je e-mails blijven privé. Smartle scant alleen facturen en slaat nooit je wachtwoord op.",
+    privacyNote: "Je e-mails blijven privé. Inbox agentscant alleen facturen en slaat nooit je wachtwoord op.",
     
     // IMAP Email Success Modal
     emailSettingsVerified: "E-mailinstellingen geverifieerd",
@@ -1309,17 +1309,17 @@ export const MicrosoftAuthModalTranslation = {
     microsoftAccountConnectionStatus: "Microsoft Account Connection Status",
     connectYourMicrosoftEmailSecurely: "Connect your Microsoft email securely",
     accountConnected: "Your Microsoft account is currently connected to Smartle.",
-    accountNotConnected: "Smartle uses Microsoft's secure OAuth 2.0 login to access only invoices. Your personal emails remain private.",
+    accountNotConnected: "Inbox agentuses Microsoft's secure OAuth 2.0 login to access only invoices. Your personal emails remain private.",
     manageConnectedAccounts: "Manage your connected Microsoft accounts below.",
     connectedAccounts: "Connected Accounts",
     noAccountsConnected: "No Microsoft accounts are currently connected.",
     disconnect: "Disconnect",
     connectNewMicrosoftAccount: "Connect New Microsoft Account",
     startScanningFrom: "Start scanning from",
-    scanLimitNote: "Smartle can only scan up to 1 month of past emails.",
+    scanLimitNote: "Inbox agentcan only scan up to 1 month of past emails.",
     authorizeWithMicrosoft: "Authorize with Microsoft",
     disconnectMicrosoftAccount: "Disconnect Microsoft Account",
-    passwordNote: "Smartle never stores your password. Only invoice-related emails are scanned securely through Microsoft's OAuth 2.0 authorization.",
+    passwordNote: "Inbox agentnever stores your password. Only invoice-related emails are scanned securely through Microsoft's OAuth 2.0 authorization.",
     learnMore: "Learn how we protect your data",
     disconnectSuccess: "Microsoft account disconnected successfully",
     disconnectError: "Failed to disconnect Microsoft account",
@@ -1329,17 +1329,17 @@ export const MicrosoftAuthModalTranslation = {
     microsoftAccountConnectionStatus: "Statut de connexion du compte Microsoft",
     connectYourMicrosoftEmailSecurely: "Connectez votre e-mail Microsoft en toute sécurité",
     accountConnected: "Votre compte Microsoft est actuellement connecté à Smartle.",
-    accountNotConnected: "Smartle utilise la connexion sécurisée OAuth 2.0 de Microsoft pour accéder uniquement aux factures. Vos e-mails personnels restent privés.",
+    accountNotConnected: "Inbox agentutilise la connexion sécurisée OAuth 2.0 de Microsoft pour accéder uniquement aux factures. Vos e-mails personnels restent privés.",
     manageConnectedAccounts: "Gérez vos comptes Microsoft connectés ci-dessous.",
     connectedAccounts: "Comptes connectés",
     noAccountsConnected: "Aucun compte Microsoft n'est actuellement connecté.",
     disconnect: "Déconnecter",
     connectNewMicrosoftAccount: "Connecter un nouveau compte Microsoft",
     startScanningFrom: "Commencer l'analyse à partir de",
-    scanLimitNote: "Smartle peut uniquement analyser jusqu'à 1 mois d'e-mails passés.",
+    scanLimitNote: "Inbox agentpeut uniquement analyser jusqu'à 1 mois d'e-mails passés.",
     authorizeWithMicrosoft: "Autoriser avec Microsoft",
     disconnectMicrosoftAccount: "Déconnecter le compte Microsoft",
-    passwordNote: "Smartle ne stocke jamais votre mot de passe. Seuls les e-mails liés aux factures sont analysés en toute sécurité via l'autorisation OAuth 2.0 de Microsoft.",
+    passwordNote: "Inbox agentne stocke jamais votre mot de passe. Seuls les e-mails liés aux factures sont analysés en toute sécurité via l'autorisation OAuth 2.0 de Microsoft.",
     learnMore: "Découvrez comment nous protégeons vos données",
     disconnectSuccess: "Compte Microsoft déconnecté avec succès",
     disconnectError: "Échec de la déconnexion du compte Microsoft",
@@ -1349,17 +1349,17 @@ export const MicrosoftAuthModalTranslation = {
     microsoftAccountConnectionStatus: "Verbindingsstatus Microsoft-account",
     connectYourMicrosoftEmailSecurely: "Verbind uw Microsoft-e-mail veilig",
     accountConnected: "Uw Microsoft-account is momenteel verbonden met Smartle.",
-    accountNotConnected: "Smartle gebruikt de veilige OAuth 2.0-aanmelding van Microsoft om alleen facturen te openen. Uw persoonlijke e-mails blijven privé.",
+    accountNotConnected: "Inbox agentgebruikt de veilige OAuth 2.0-aanmelding van Microsoft om alleen facturen te openen. Uw persoonlijke e-mails blijven privé.",
     manageConnectedAccounts: "Beheer uw verbonden Microsoft-accounts hieronder.",
     connectedAccounts: "Verbonden accounts",
     noAccountsConnected: "Er zijn momenteel geen Microsoft-accounts verbonden.",
     disconnect: "Ontkoppelen",
     connectNewMicrosoftAccount: "Nieuw Microsoft-account verbinden",
     startScanningFrom: "Begin met scannen vanaf",
-    scanLimitNote: "Smartle kan slechts tot 1 maand aan eerdere e-mails scannen.",
+    scanLimitNote: "Inbox agentkan slechts tot 1 maand aan eerdere e-mails scannen.",
     authorizeWithMicrosoft: "Autoriseren met Microsoft",
     disconnectMicrosoftAccount: "Microsoft-account ontkoppelen",
-    passwordNote: "Smartle slaat uw wachtwoord nooit op. Alleen factuurgerelateerde e-mails worden veilig gescand via Microsofts OAuth 2.0-autorisatie.",
+    passwordNote: "Inbox agentslaat uw wachtwoord nooit op. Alleen factuurgerelateerde e-mails worden veilig gescand via Microsofts OAuth 2.0-autorisatie.",
     learnMore: "Lees hoe wij uw gegevens beschermen",
     disconnectSuccess: "Microsoft-account succesvol ontkoppeld",
     disconnectError: "Kan Microsoft-account niet ontkoppelen",
@@ -1501,7 +1501,7 @@ export const ContactPageTranslations = {
     
     // Contact Info Section
     contactInfoHeading: "Let's talk about your business",
-    contactInfoDescription: "Whether you're looking to streamline your accounting process or have questions about our features, we're here to help. Reach out to us and let's discuss how Smartle can work for your business.",
+    contactInfoDescription: "Whether you're looking to streamline your accounting process or have questions about our features, we're here to help. Reach out to us and let's discuss how Inbox agentcan work for your business.",
     emailUsLabel: "Email us",
     emailAddress: "contact@smartle.com",
     
@@ -1537,7 +1537,7 @@ export const ContactPageTranslations = {
     faq3Answer: "Yes! We offer a 30-day free trial with full access to all features. No credit card required.",
     
     faq4Question: "Can I integrate with my existing tools?",
-    faq4Answer: "Smartle integrates with popular accounting software like QuickBooks, Xero, and many others.",
+    faq4Answer: "Inbox agentintegrates with popular accounting software like QuickBooks, Xero, and many others.",
     
     faq5Question: "What kind of support do you offer?",
     faq5Answer: "We provide email support for all plans, with priority support available for higher tiers.",
@@ -1549,11 +1549,11 @@ export const ContactPageTranslations = {
     // Hero Section
     heroTitle1: "Prenez",
     heroTitle2: "contact",
-    heroSubtitle: "Vous avez des questions sur Smartle ? Nous serions ravis de vous entendre. Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.",
+    heroSubtitle: "Vous avez des questions sur Inbox agent? Nous serions ravis de vous entendre. Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.",
     
     // Contact Info Section
     contactInfoHeading: "Parlons de votre entreprise",
-    contactInfoDescription: "Que vous cherchiez à optimiser votre processus comptable ou que vous ayez des questions sur nos fonctionnalités, nous sommes là pour vous aider. Contactez-nous et discutons de la manière dont Smartle peut fonctionner pour votre entreprise.",
+    contactInfoDescription: "Que vous cherchiez à optimiser votre processus comptable ou que vous ayez des questions sur nos fonctionnalités, nous sommes là pour vous aider. Contactez-nous et discutons de la manière dont Inbox agentpeut fonctionner pour votre entreprise.",
     emailUsLabel: "E-mail",
     emailAddress: "contact@smartle.com",
     
@@ -1589,7 +1589,7 @@ export const ContactPageTranslations = {
     faq3Answer: "Oui ! Nous offrons un essai gratuit de 30 jours avec un accès complet à toutes les fonctionnalités. Aucune carte de crédit requise.",
     
     faq4Question: "Puis-je intégrer avec mes outils existants ?",
-    faq4Answer: "Smartle s'intègre avec les logiciels comptables populaires comme QuickBooks, Xero et bien d'autres.",
+    faq4Answer: "Inbox agents'intègre avec les logiciels comptables populaires comme QuickBooks, Xero et bien d'autres.",
     
     faq5Question: "Quel type de support offrez-vous ?",
     faq5Answer: "Nous offrons un support par e-mail pour tous les plans, avec un support prioritaire disponible pour les niveaux supérieurs.",
@@ -1605,7 +1605,7 @@ export const ContactPageTranslations = {
     
     // Contact Info Section
     contactInfoHeading: "Laten we praten over uw bedrijf",
-    contactInfoDescription: "Of u nu uw boekhoudproces wilt stroomlijnen of vragen heeft over onze functies, wij zijn er om te helpen. Neem contact met ons op en laten we bespreken hoe Smartle voor uw bedrijf kan werken.",
+    contactInfoDescription: "Of u nu uw boekhoudproces wilt stroomlijnen of vragen heeft over onze functies, wij zijn er om te helpen. Neem contact met ons op en laten we bespreken hoe Inbox agentvoor uw bedrijf kan werken.",
     emailUsLabel: "E-mail ons",
     emailAddress: "contact@smartle.com",
     
@@ -1641,7 +1641,7 @@ export const ContactPageTranslations = {
     faq3Answer: "Ja! We bieden een gratis proefperiode van 30 dagen met volledige toegang tot alle functies. Geen creditcard vereist.",
     
     faq4Question: "Kan ik integreren met mijn bestaande tools?",
-    faq4Answer: "Smartle integreert met populaire boekhoudsoftware zoals QuickBooks, Xero en vele anderen.",
+    faq4Answer: "Inbox agentintegreert met populaire boekhoudsoftware zoals QuickBooks, Xero en vele anderen.",
     
     faq5Question: "Wat voor soort ondersteuning biedt u?",
     faq5Answer: "We bieden e-mailondersteuning voor alle plannen, met prioriteitsondersteuning beschikbaar voor hogere niveaus.",
@@ -1668,7 +1668,7 @@ export const LandingTranslations = {
 
     heroLine1: "Your invoices, our mission.",
     heroLine2: "Less paperwork, more peace of mind.",
-    heroSubtext1: "Smartle collects, sorts, and automatically sends your invoices to your accountant.",
+    heroSubtext1: "Inbox agentcollects, sorts, and automatically sends your invoices to your accountant.",
     heroSubtext2: "You save time, gain clarity, and enjoy peace of mind.",
     heroCta: "Get 1 month free",
     trustedBy: "Trusted by these six companies so far",
@@ -1682,10 +1682,10 @@ export const LandingTranslations = {
     primaryAria: "Features for running your books",
     primaryHeading: "Don't waste any more time with your invoices.",
     primarySubheading:
-      "Smartle finds them, sorts them, and automatically sends them to your accountant.",
+      "Inbox agentfinds them, sorts them, and automatically sends them to your accountant.",
     primaryTabs: [
-      { title: "Secure Connection", description: "Simply connect your email box. Smartle connects to it securely to identify only emails containing invoices." },
-      { title: "Intelligent Invoice Recovery", description: "Smartle automatically scans your email box searching for relevant attachments. Thanks to its intelligent engine, it recognizes invoices with formidable precision." },
+      { title: "Secure Connection", description: "Simply connect your email box. Inbox agentconnects to it securely to identify only emails containing invoices." },
+      { title: "Intelligent Invoice Recovery", description: "Inbox agentautomatically scans your email box searching for relevant attachments. Thanks to its intelligent engine, it recognizes invoices with formidable precision." },
       { title: "Automated Analysis and Sorting", description: "Invoices are analyzed to extract key data: amount, supplier, date,... They appear in your dashboard, ready to be tracked." },
       { title: "Send to Your Accountant or Your Platform", description: "Documents are automatically transmitted to your accountant or to platforms like Billobox, Winbooks, Odoo,..." },
     ],
@@ -1696,8 +1696,8 @@ export const LandingTranslations = {
     secondarySubheading:
       "With Smartle, your invoices are retrieved automatically, delivered to your accountant on time, and stored securely.",
     secondaryItems: [
-      { name: "Efficiency", summary: "Stop searching for your invoices", description: "Smartle takes care of finding and sorting your invoices directly from your emails. Less time wasted, more peace of mind every day." },
-      { name: "Reliability", summary: "Your accountant receives everything, automatically and on time", description: "No more stress about tax deadlines. Smartle delivers your invoices on time, in the right format. Your accountant is reassured—and so are you." },
+      { name: "Efficiency", summary: "Stop searching for your invoices", description: "Inbox agenttakes care of finding and sorting your invoices directly from your emails. Less time wasted, more peace of mind every day." },
+      { name: "Reliability", summary: "Your accountant receives everything, automatically and on time", description: "No more stress about tax deadlines. Inbox agentdelivers your invoices on time, in the right format. Your accountant is reassured—and so are you." },
       { name: "Security", summary: "Your data, secure and hosted in Europe", description: "Security and confidentiality are our priorities. Your invoices are fully protected and processed in compliance with GDPR, with hosting based in Europe." },
     ],
 
@@ -1728,12 +1728,12 @@ export const LandingTranslations = {
         {
           question: "What is Smartle?",
           answer:
-            "Smartle is an application that automatically retrieves invoices received in your mailbox, sorts them, analyzes them (amount, supplier, etc.) and sends them to your accountant or to your accounting platform.",
+            "Inbox agentis an application that automatically retrieves invoices received in your mailbox, sorts them, analyzes them (amount, supplier, etc.) and sends them to your accountant or to your accounting platform.",
         },
         {
           question: "What types of email accounts are compatible?",
           answer:
-            "Currently, Smartle supports Gmail, Outlook, and custom IMAP connections. More providers will be added soon.",
+            "Currently, Inbox agentsupports Gmail, Outlook, and custom IMAP connections. More providers will be added soon.",
         },
       ],
       [
@@ -1743,16 +1743,16 @@ export const LandingTranslations = {
             "At Smartle, the security of your data is our top priority. We use the highest security standards: Secure authentication via compliant OAuth protocols, Encryption of credentials and sensitive data, Secure storage on encrypted servers, No data is accessible without authorization. Everything is designed to guarantee the confidentiality, integrity, and reliability of your information.",
         },
         {
-          question: "Can I try Smartle for free?",
+          question: "Can I try Inbox agentfor free?",
           answer:
             "Yes, you get a 30-day free trial, no credit card required. This allows you to test all the features before subscribing.",
         },
       ],
       [
         {
-          question: "I'm an accountant. Can I use Smartle for my clients?",
+          question: "I'm an accountant. Can I use Inbox agentfor my clients?",
           answer:
-            "Yes! Smartle is also designed for accountants. You can automatically receive invoices from your clients and save valuable time collecting documents.",
+            "Yes! Inbox agentis also designed for accountants. You can automatically receive invoices from your clients and save valuable time collecting documents.",
         },
         {
           question: "Can I cancel at any time?",
@@ -1760,9 +1760,9 @@ export const LandingTranslations = {
             "Of course. You can cancel your subscription at any time from your personal space. No commitment is required.",
         },
         {
-          question: "Does Smartle work with my accounting software?",
+          question: "Does Inbox agentwork with my accounting software?",
           answer:
-            "Currently, Smartle transfers invoices via email. It is compatible with any tool that accepts the receipt of accounting documents by email (e.g., Odoo, Billtobox, Exact, etc.).",
+            "Currently, Inbox agenttransfers invoices via email. It is compatible with any tool that accepts the receipt of accounting documents by email (e.g., Odoo, Billtobox, Exact, etc.).",
         },
       ],
     ],
@@ -1808,7 +1808,7 @@ export const LandingTranslations = {
 
     heroLine1: "Vos factures, notre mission.",
     heroLine2: "Moins d’administratif, plus de sérénité.",
-    heroSubtext1: "Smartle récupère, trie et envoie automatiquement vos factures à votre comptable.",
+    heroSubtext1: "Inbox agentrécupère, trie et envoie automatiquement vos factures à votre comptable.",
     heroSubtext2: "Vous gagnez en temps, en clarté et en tranquillité.",
     heroCta: "Obtenez 1 mois gratuit",
     trustedBy: "Déjà approuvé par ces six entreprises",
@@ -1821,10 +1821,10 @@ export const LandingTranslations = {
     primaryAria: "Fonctionnalités pour gérer votre comptabilité",
     primaryHeading: "Ne perdez plus de temps avec vos factures",
     primarySubheading:
-      "Smartle les trouve, les classe et les transmet automatiquement à votre comptable.",
+      "Inbox agentles trouve, les classe et les transmet automatiquement à votre comptable.",
     primaryTabs: [
-      { title: "Connexion sécurisée", description: "Connecte simplement ta boîte mail. Smartle s'y relie de manière sécurisée pour repérer uniquement les e-mails contenant des factures." },
-      { title: "Récupération intelligente des factures", description: "Smartle scanne automatiquement ta boîte mail à la recherche des pièces jointes pertinentes. Grâce à son moteur intelligent, il reconnaît les factures avec une précision redoutable." },
+      { title: "Connexion sécurisée", description: "Connecte simplement ta boîte mail. Inbox agents'y relie de manière sécurisée pour repérer uniquement les e-mails contenant des factures." },
+      { title: "Récupération intelligente des factures", description: "Inbox agentscanne automatiquement ta boîte mail à la recherche des pièces jointes pertinentes. Grâce à son moteur intelligent, il reconnaît les factures avec une précision redoutable." },
       { title: "Analyse et tri automatisés", description: "Les factures sont analysées pour en extraire les données clés : montant, fournisseur, date,... Elles apparaissent dans ton tableau de bord, prêtes à être suivies." },
       { title: "Envoi vers ton comptable ou ta plateforme", description: "Les documents sont transmis automatiquement à ton comptable ou à des plateformes comme Billobox, Winbooks, Odoo,..." },
     ],
@@ -1834,8 +1834,8 @@ export const LandingTranslations = {
     secondarySubheading:
       "Avec Smartle, vos factures sont récupérées automatiquement, envoyées à temps à votre comptable et stockées en toute sécurité.",
     secondaryItems: [
-      { name: "Efficacité", summary: "Ne cherchez plus vos factures", description: "Smartle s’occupe de retrouver et de trier vos factures directement dans vos e-mails. Moins de temps perdu, plus de sérénité au quotidien." },
-      { name: "Fiabilité", summary: "Votre comptable reçoit tout, automatiquement et à temps", description: "Fini le stress des échéances fiscales. Smartle transmet vos factures à temps, dans le bon format. Votre comptable est rassuré, et vous aussi." },
+      { name: "Efficacité", summary: "Ne cherchez plus vos factures", description: "Inbox agents’occupe de retrouver et de trier vos factures directement dans vos e-mails. Moins de temps perdu, plus de sérénité au quotidien." },
+      { name: "Fiabilité", summary: "Votre comptable reçoit tout, automatiquement et à temps", description: "Fini le stress des échéances fiscales. Inbox agenttransmet vos factures à temps, dans le bon format. Votre comptable est rassuré, et vous aussi." },
       { name: "Sécurité", summary: "Vos données sécurisées et hébergées en Europe", description: "Sécurité et confidentialité sont nos priorités. Vos factures sont protégées et traitées en conformité avec le RGPD, avec un hébergement basé en Europe." },
     ],
 
@@ -1861,14 +1861,14 @@ export const LandingTranslations = {
     faqs: [
       [
         {
-          question: "Qu'est-ce que Smartle ?",
+          question: "Qu'est-ce que Inbox agent?",
           answer:
-            "Smartle est une application qui récupère automatiquement les factures reçues dans votre boîte mail, les trie, les analyse (montant, fournisseur, etc.) et les envoie à votre comptable ou à votre plateforme comptable.",
+            "Inbox agentest une application qui récupère automatiquement les factures reçues dans votre boîte mail, les trie, les analyse (montant, fournisseur, etc.) et les envoie à votre comptable ou à votre plateforme comptable.",
         },
         {
           question: "Quels types de comptes e-mail sont compatibles ?",
           answer:
-            "Actuellement, Smartle prend en charge Gmail, Outlook et les connexions IMAP personnalisées. D'autres fournisseurs seront ajoutés prochainement.",
+            "Actuellement, Inbox agentprend en charge Gmail, Outlook et les connexions IMAP personnalisées. D'autres fournisseurs seront ajoutés prochainement.",
         },
       ],
       [
@@ -1878,16 +1878,16 @@ export const LandingTranslations = {
             "Chez Smartle, la sécurité de vos données est notre priorité absolue. Nous utilisons les normes de sécurité les plus élevées : Authentification sécurisée via des protocoles OAuth conformes, Chiffrement des identifiants et des données sensibles, Stockage sécurisé sur des serveurs chiffrés, Aucune donnée n'est accessible sans autorisation. Tout est conçu pour garantir la confidentialité, l'intégrité et la fiabilité de vos informations.",
         },
         {
-          question: "Puis-je essayer Smartle gratuitement ?",
+          question: "Puis-je essayer Inbox agentgratuitement ?",
           answer:
             "Oui, vous bénéficiez d'un essai gratuit de 30 jours, sans carte de crédit requise. Cela vous permet de tester toutes les fonctionnalités avant de vous abonner.",
         },
       ],
       [
         {
-          question: "Je suis comptable. Puis-je utiliser Smartle pour mes clients ?",
+          question: "Je suis comptable. Puis-je utiliser Inbox agentpour mes clients ?",
           answer:
-            "Oui ! Smartle est également conçu pour les comptables. Vous pouvez recevoir automatiquement les factures de vos clients et gagner un temps précieux à collecter les documents.",
+            "Oui ! Inbox agentest également conçu pour les comptables. Vous pouvez recevoir automatiquement les factures de vos clients et gagner un temps précieux à collecter les documents.",
         },
         {
           question: "Puis-je annuler à tout moment ?",
@@ -1895,9 +1895,9 @@ export const LandingTranslations = {
             "Bien sûr. Vous pouvez annuler votre abonnement à tout moment depuis votre espace personnel. Aucun engagement n'est requis.",
         },
         {
-          question: "Smartle fonctionne-t-il avec mon logiciel de comptabilité ?",
+          question: "Inbox agentfonctionne-t-il avec mon logiciel de comptabilité ?",
           answer:
-            "Actuellement, Smartle transfère les factures par e-mail. Il est compatible avec tout outil qui accepte la réception de documents comptables par e-mail (ex. Odoo, Billtobox, Exact, etc.).",
+            "Actuellement, Inbox agenttransfère les factures par e-mail. Il est compatible avec tout outil qui accepte la réception de documents comptables par e-mail (ex. Odoo, Billtobox, Exact, etc.).",
         },
       ],
     ],
@@ -1942,7 +1942,7 @@ export const LandingTranslations = {
 
     heroLine1: "Uw facturen, onze missie.",
     heroLine2: "Minder administratie, meer gemoedsrust.",
-    heroSubtext1: "Smartle verzamelt, sorteert en stuurt uw facturen automatisch naar uw boekhouder.",
+    heroSubtext1: "Inbox agentverzamelt, sorteert en stuurt uw facturen automatisch naar uw boekhouder.",
     heroSubtext2: "U bespaart tijd, krijgt duidelijkheid en geniet van gemoedsrust.",
     heroCta: "Krijg 1 maand gratis",
     trustedBy: "Vertrouwd door deze zes bedrijven",
@@ -1955,10 +1955,10 @@ export const LandingTranslations = {
     primaryAria: "Functies voor het beheren van je boekhouding",
     primaryHeading: "Verspil geen tijd meer met uw facturen.",
     primarySubheading:
-      "Smartle vindt ze, sorteert ze en stuurt ze automatisch naar je accountant.",
+      "Inbox agentvindt ze, sorteert ze en stuurt ze automatisch naar je accountant.",
     primaryTabs: [
-      { title: "Beveiligde Verbinding", description: "Verbind eenvoudig je e-mailbox. Smartle maakt er veilig verbinding mee om alleen e-mails met facturen te herkennen." },
-      { title: "Intelligente Factuurophaling", description: "Smartle scant automatisch je e-mailbox op zoek naar relevante bijlagen. Dankzij zijn intelligente motor herkent het facturen met onovertroffen precisie." },
+      { title: "Beveiligde Verbinding", description: "Verbind eenvoudig je e-mailbox. Inbox agentmaakt er veilig verbinding mee om alleen e-mails met facturen te herkennen." },
+      { title: "Intelligente Factuurophaling", description: "Inbox agentscant automatisch je e-mailbox op zoek naar relevante bijlagen. Dankzij zijn intelligente motor herkent het facturen met onovertroffen precisie." },
       { title: "Geautomatiseerde Analyse en Sortering", description: "Facturen worden geanalyseerd om belangrijke gegevens te extraheren: bedrag, leverancier, datum,... Ze verschijnen in je dashboard, klaar om gevolgd te worden." },
       { title: "Verzenden naar Je Accountant of Je Platform", description: "Documenten worden automatisch doorgestuurd naar je accountant of naar platforms zoals Billobox, Winbooks, Odoo,.." },
     ],
@@ -1966,10 +1966,10 @@ export const LandingTranslations = {
     secondaryAria: "Functies om dagelijkse taken te vereenvoudigen",
     secondaryHeading: "Beheer je facturen moeiteloos.",
     secondarySubheading:
-      "Met Smartle worden je facturen automatisch opgehaald, op tijd naar je boekhouder gestuurd en veilig opgeslagen.",
+      "Met Inbox agentworden je facturen automatisch opgehaald, op tijd naar je boekhouder gestuurd en veilig opgeslagen.",
     secondaryItems: [
-      { name: "Efficiëntie", summary: "Stop met het zoeken naar je facturen", description: "Smartle zoekt en sorteert je facturen direct vanuit je e-mails. Minder verspilde tijd, meer gemoedsrust – elke dag." },
-      { name: "Betrouwbaarheid", summary: "Je boekhouder ontvangt alles, automatisch en op tijd", description: "Geen stress meer over fiscale deadlines. Smartle levert je facturen op tijd en in het juiste formaat. Je boekhouder is gerustgesteld – en jij ook." },
+      { name: "Efficiëntie", summary: "Stop met het zoeken naar je facturen", description: "Inbox agentzoekt en sorteert je facturen direct vanuit je e-mails. Minder verspilde tijd, meer gemoedsrust – elke dag." },
+      { name: "Betrouwbaarheid", summary: "Je boekhouder ontvangt alles, automatisch en op tijd", description: "Geen stress meer over fiscale deadlines. Inbox agentlevert je facturen op tijd en in het juiste formaat. Je boekhouder is gerustgesteld – en jij ook." },
       { name: "Beveiliging", summary: "Jouw gegevens, veilig en gehost in Europa", description: "Beveiliging en vertrouwelijkheid zijn onze prioriteit. Je facturen worden volledig beschermd en verwerkt volgens de AVG, met hosting in Europa." },
     ],
 
@@ -1997,31 +1997,31 @@ export const LandingTranslations = {
         {
           question: "Wat is Smartle?",
           answer:
-            "Smartle is een applicatie die automatisch facturen uit je mailbox haalt, ze sorteert, analyseert (bedrag, leverancier, etc.) en ze naar je boekhouder of je boekhoudplatform stuurt.",
+            "Inbox agentis een applicatie die automatisch facturen uit je mailbox haalt, ze sorteert, analyseert (bedrag, leverancier, etc.) en ze naar je boekhouder of je boekhoudplatform stuurt.",
         },
         {
           question: "Welke soorten e-mailaccounts zijn compatibel?",
           answer:
-            "Momenteel ondersteunt Smartle Gmail, Outlook en aangepaste IMAP-verbindingen. Meer providers worden binnenkort toegevoegd.",
+            "Momenteel ondersteunt Inbox agentGmail, Outlook en aangepaste IMAP-verbindingen. Meer providers worden binnenkort toegevoegd.",
         },
       ],
       [
         {
           question: "Hoe worden mijn gegevens beschermd?",
           answer:
-            "Bij Smartle is de beveiliging van je gegevens onze hoogste prioriteit. We gebruiken de hoogste beveiligingsstandaarden: Veilige authenticatie via conforme OAuth-protocollen, Versleuteling van inloggegevens en gevoelige gegevens, Veilige opslag op versleutelde servers, Geen gegevens zijn toegankelijk zonder autorisatie. Alles is ontworpen om de vertrouwelijkheid, integriteit en betrouwbaarheid van je informatie te garanderen.",
+            "Bij Inbox agentis de beveiliging van je gegevens onze hoogste prioriteit. We gebruiken de hoogste beveiligingsstandaarden: Veilige authenticatie via conforme OAuth-protocollen, Versleuteling van inloggegevens en gevoelige gegevens, Veilige opslag op versleutelde servers, Geen gegevens zijn toegankelijk zonder autorisatie. Alles is ontworpen om de vertrouwelijkheid, integriteit en betrouwbaarheid van je informatie te garanderen.",
         },
         {
-          question: "Kan ik Smartle gratis uitproberen?",
+          question: "Kan ik Inbox agentgratis uitproberen?",
           answer:
             "Ja, je krijgt een gratis proefperiode van 30 dagen, geen creditcard vereist. Dit stelt je in staat om alle functies te testen voordat je je abonneert.",
         },
       ],
       [
         {
-          question: "Ik ben boekhouder. Kan ik Smartle gebruiken voor mijn klanten?",
+          question: "Ik ben boekhouder. Kan ik Inbox agentgebruiken voor mijn klanten?",
           answer:
-            "Ja! Smartle is ook ontworpen voor boekhouders. Je kunt automatisch facturen van je klanten ontvangen en kostbare tijd besparen bij het verzamelen van documenten.",
+            "Ja! Inbox agentis ook ontworpen voor boekhouders. Je kunt automatisch facturen van je klanten ontvangen en kostbare tijd besparen bij het verzamelen van documenten.",
         },
         {
           question: "Kan ik op elk moment annuleren?",
@@ -2029,9 +2029,9 @@ export const LandingTranslations = {
             "Natuurlijk. Je kunt je abonnement op elk moment annuleren vanuit je persoonlijke ruimte. Geen verplichting vereist.",
         },
         {
-          question: "Werkt Smartle met mijn boekhoudsoftware?",
+          question: "Werkt Inbox agentmet mijn boekhoudsoftware?",
           answer:
-            "Momenteel stuurt Smartle facturen via e-mail door. Het is compatibel met elk hulpmiddel dat de ontvangst van boekhouddocumenten per e-mail accepteert (bijv. Odoo, Billtobox, Exact, etc.).",
+            "Momenteel stuurt Inbox agentfacturen via e-mail door. Het is compatibel met elk hulpmiddel dat de ontvangst van boekhouddocumenten per e-mail accepteert (bijv. Odoo, Billtobox, Exact, etc.).",
         },
       ],
     ],
@@ -2046,7 +2046,7 @@ export const LandingTranslations = {
 
     ctaHeading: "Begin vandaag nog",
     ctaSubtitle:
-      "🎁 30 dagen gratis 🎁\nGeen creditcard, geen verplichting.\nEen volledige maand om Smartle te ontdekken.",
+      "🎁 30 dagen gratis 🎁\nGeen creditcard, geen verplichting.\nEen volledige maand om Inbox agentte ontdekken.",
     ctaButton: "Start gratis proefperiode",
     pricingFeatures: {
       unlimitedInvoices: "Onbeperkte factuurverzameling",
@@ -2069,13 +2069,13 @@ export const GmailAuthModalTranslation = {
     securelyConnectYourGmail: "Securely connect your Gmail",
     yourGmailAccount: "Your Gmail account",
     isCurrentlyConnected: "is currently connected to Smartle.",
-    accountNotConnected: "Smartle uses Google's secure OAuth 2.0 system to access only invoice-related emails. Your personal messages remain private and untouched.",
+    accountNotConnected: "Inbox agentuses Google's secure OAuth 2.0 system to access only invoice-related emails. Your personal messages remain private and untouched.",
     startScanningFrom: "Start scanning from",
     scanLimitNote: "You can only scan up to 1 month of emails.",
     authorizeWithGoogle: "Authorize with Google",
     disconnectGmail: "Disconnect Gmail",
     oauthNote: "OAuth 2.0 ensures your credentials are never shared with Smartle.",
-    learnMore: "Learn more about how Smartle protects your email privacy.",
+    learnMore: "Learn more about how Inbox agentprotects your email privacy.",
     disconnectSuccess: "Gmail disconnected successfully",
     // New additions for JSX static content
     manageConnectedAccounts: "Manage your connected Gmail accounts below.",
@@ -2092,13 +2092,13 @@ export const GmailAuthModalTranslation = {
     securelyConnectYourGmail: "Connectez votre Gmail en toute sécurité",
     yourGmailAccount: "Votre compte Gmail",
     isCurrentlyConnected: "est actuellement connecté à Smartle.",
-    accountNotConnected: "Smartle utilise le système OAuth 2.0 sécurisé de Google pour accéder uniquement aux e-mails liés aux factures. Vos messages personnels restent privés et intacts.",
+    accountNotConnected: "Inbox agentutilise le système OAuth 2.0 sécurisé de Google pour accéder uniquement aux e-mails liés aux factures. Vos messages personnels restent privés et intacts.",
     startScanningFrom: "Commencer l'analyse à partir de",
     scanLimitNote: "Vous ne pouvez analyser qu'un maximum d'1 mois d'e-mails.",
     authorizeWithGoogle: "Autoriser avec Google",
     disconnectGmail: "Déconnecter Gmail",
     oauthNote: "OAuth 2.0 garantit que vos identifiants ne sont jamais partagés avec Smartle.",
-    learnMore: "En savoir plus sur la manière dont Smartle protège la confidentialité de vos e-mails.",
+    learnMore: "En savoir plus sur la manière dont Inbox agentprotège la confidentialité de vos e-mails.",
     disconnectSuccess: "Compte Gmail déconnecté avec succès",
     // New additions for JSX static content
     manageConnectedAccounts: "Gérez vos comptes Gmail connectés ci-dessous.",
@@ -2115,13 +2115,13 @@ export const GmailAuthModalTranslation = {
     securelyConnectYourGmail: "Verbind uw Gmail veilig",
     yourGmailAccount: "Uw Gmail-account",
     isCurrentlyConnected: "is momenteel verbonden met Smartle.",
-    accountNotConnected: "Smartle gebruikt het beveiligde OAuth 2.0-systeem van Google om alleen toegang te krijgen tot factuurgerelateerde e-mails. Uw persoonlijke berichten blijven privé en onaangetast.",
+    accountNotConnected: "Inbox agentgebruikt het beveiligde OAuth 2.0-systeem van Google om alleen toegang te krijgen tot factuurgerelateerde e-mails. Uw persoonlijke berichten blijven privé en onaangetast.",
     startScanningFrom: "Begin met scannen vanaf",
     scanLimitNote: "U kunt slechts tot 1 maand aan e-mails scannen.",
     authorizeWithGoogle: "Autoriseren met Google",
     disconnectGmail: "Gmail ontkoppelen",
-    oauthNote: "OAuth 2.0 zorgt ervoor dat uw inloggegevens nooit met Smartle worden gedeeld.",
-    learnMore: "Lees meer over hoe Smartle uw e-mailprivacy beschermt.",
+    oauthNote: "OAuth 2.0 zorgt ervoor dat uw inloggegevens nooit met Inbox agentworden gedeeld.",
+    learnMore: "Lees meer over hoe Inbox agentuw e-mailprivacy beschermt.",
     disconnectSuccess: "Gmail-account succesvol ontkoppeld",
     // New additions for JSX static content
     manageConnectedAccounts: "Beheer uw verbonden Gmail-accounts hieronder.",
@@ -2293,7 +2293,7 @@ export const PrivacyPageTranslations = {
     
     section3Title: "Processing purposes",
     section3Intro: "The collected data is used for:",
-    purpose1: "Providing access to the Smartle service",
+    purpose1: "Providing access to the Inbox agentservice",
     purpose2: "Analyzing invoices sent or collected by email",
     purpose3: "Organizing and transmitting documents to third parties (e.g., accountant)",
     purpose4: "Improving the quality and performance of our platform",
@@ -2357,7 +2357,7 @@ export const PrivacyPageTranslations = {
     section9Footer: "To exercise your rights:",
     
     section10Title: "Data location",
-    section10Text1: "All data collected via Smartle is hosted exclusively in data centers located in the European Economic Area (EEA). In particular, PDF files and user data are stored on Amazon Web Services (AWS) servers located in France or Germany.",
+    section10Text1: "All data collected via Inbox agentis hosted exclusively in data centers located in the European Economic Area (EEA). In particular, PDF files and user data are stored on Amazon Web Services (AWS) servers located in France or Germany.",
     section10Text2: "No transfer of personal data outside the European Union or the United Kingdom is carried out without appropriate guarantees or explicit technical necessity.",
     
     section11Title: "Modifications",
@@ -2462,7 +2462,7 @@ export const PrivacyPageTranslations = {
     section9Footer: "Pour exercer vos droits :",
     
     section10Title: "Localisation des données",
-    section10Text1: "Toutes les données collectées via Smartle sont hébergées exclusivement dans des centres de données situés dans l'Espace économique européen (EEE). En particulier, les fichiers PDF et les données utilisateur sont stockés sur des serveurs Amazon Web Services (AWS) situés en France ou en Allemagne.",
+    section10Text1: "Toutes les données collectées via Inbox agentsont hébergées exclusivement dans des centres de données situés dans l'Espace économique européen (EEE). En particulier, les fichiers PDF et les données utilisateur sont stockés sur des serveurs Amazon Web Services (AWS) situés en France ou en Allemagne.",
     section10Text2: "Aucun transfert de données personnelles en dehors de l'Union européenne ou du Royaume-Uni n'est effectué sans garanties appropriées ou nécessité technique explicite.",
     
     section11Title: "Modifications",
@@ -2567,7 +2567,7 @@ export const PrivacyPageTranslations = {
     section9Footer: "Om uw rechten uit te oefenen:",
     
     section10Title: "Gegevenslocatie",
-    section10Text1: "Alle via Smartle verzamelde gegevens worden uitsluitend gehost in datacenters in de Europese Economische Ruimte (EER). In het bijzonder worden PDF-bestanden en gebruikersgegevens opgeslagen op Amazon Web Services (AWS) servers in Frankrijk of Duitsland.",
+    section10Text1: "Alle via Inbox agentverzamelde gegevens worden uitsluitend gehost in datacenters in de Europese Economische Ruimte (EER). In het bijzonder worden PDF-bestanden en gebruikersgegevens opgeslagen op Amazon Web Services (AWS) servers in Frankrijk of Duitsland.",
     section10Text2: "Er vindt geen overdracht van persoonlijke gegevens plaats buiten de Europese Unie of het Verenigd Koninkrijk zonder passende waarborgen of expliciete technische noodzaak.",
     
     section11Title: "Wijzigingen",
@@ -2584,7 +2584,7 @@ export const TermsPageTranslations = {
     lastUpdated: "01/18/2024",
     
     section1Title: "Introduction",
-    section1Text: "These Terms and Conditions ('Terms') govern your access to and use of Smartle ('we', 'us', or 'our') websites, products, and services (collectively, the 'Services'). By accessing or using the Services, you agree to be bound by these Terms.",
+    section1Text: "These Terms and Conditions ('Terms') govern your access to and use of Inbox agent('we', 'us', or 'our') websites, products, and services (collectively, the 'Services'). By accessing or using the Services, you agree to be bound by these Terms.",
     
     section2Title: "Acceptance of Terms",
     section2Text: "By using the Services, you represent that you have read, understood, and agree to these Terms and our Privacy Policy. If you do not agree, you may not use the Services.",
@@ -2598,31 +2598,31 @@ export const TermsPageTranslations = {
     obligation3: "Do not misuse the Services, attempt unauthorized access, or disrupt operations.",
     
     section5Title: "Email Access and Privacy",
-    section5Intro: "Smartle requires access to your connected email accounts (such as Gmail, Outlook, or IMAP) solely for the purpose of identifying, parsing, and filtering invoices. We strictly maintain user privacy:",
+    section5Intro: "Inbox agentrequires access to your connected email accounts (such as Gmail, Outlook, or IMAP) solely for the purpose of identifying, parsing, and filtering invoices. We strictly maintain user privacy:",
     privacy1: "We do not store your personal emails or email contents.",
     privacy2: "Our system only processes relevant invoice data and makes it available for your accountant or authorized recipient.",
     privacy3: "Your login credentials and connected email accounts are protected with industry-standard security practices.",
     
     section6Title: "Data Handling",
-    section6Text: "Smartle processes invoice-related information solely to deliver our Services. We do not sell, share, or disclose your personal data to third parties except as required by law. By using the Services, you authorize Smartle to securely access and process your email data for this limited purpose.",
+    section6Text: "Inbox agentprocesses invoice-related information solely to deliver our Services. We do not sell, share, or disclose your personal data to third parties except as required by law. By using the Services, you authorize Inbox agentto securely access and process your email data for this limited purpose.",
     
     section7Title: "Intellectual Property",
-    section7Text: "All content, trademarks, logos, and other intellectual property on the Services are owned by Smartle or its licensors and are protected by applicable laws. You may not use, copy, or distribute any content without prior written permission.",
+    section7Text: "All content, trademarks, logos, and other intellectual property on the Services are owned by Inbox agentor its licensors and are protected by applicable laws. You may not use, copy, or distribute any content without prior written permission.",
     
     section8Title: "Third-Party Services",
-    section8Text: "The Services may integrate with third-party providers such as Google and Microsoft. Your use of these integrations is subject to their respective terms and policies. Smartle is not responsible for the practices of third parties.",
+    section8Text: "The Services may integrate with third-party providers such as Google and Microsoft. Your use of these integrations is subject to their respective terms and policies. Inbox agentis not responsible for the practices of third parties.",
     
     section9Title: "Disclaimers",
     section9Text: "The Services are provided on an 'as is' and 'as available' basis without warranties of any kind, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.",
     
     section10Title: "Limitation of Liability",
-    section10Text: "To the maximum extent permitted by law, Smartle will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenues, or data resulting from your use of or inability to use the Services.",
+    section10Text: "To the maximum extent permitted by law, Inbox agentwill not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenues, or data resulting from your use of or inability to use the Services.",
     
     section11Title: "Termination",
     section11Text: "We may suspend or terminate your access to the Services at any time for any reason, including violations of these Terms.",
     
     section12Title: "Governing Law",
-    section12Text: "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Smartle operates, without regard to its conflict of law principles.",
+    section12Text: "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Inbox agentoperates, without regard to its conflict of law principles.",
     
     section13Title: "Changes to These Terms",
     section13Text: "We may update these Terms from time to time. Changes will be effective upon posting. Your continued use of the Services constitutes acceptance of the updated Terms.",
@@ -2635,7 +2635,7 @@ export const TermsPageTranslations = {
     lastUpdated: "18/01/2024",
     
     section1Title: "Introduction",
-    section1Text: "Ces Conditions Générales ('Conditions') régissent votre accès et votre utilisation des sites Web, produits et services de Smartle ('nous', 'notre'). En accédant ou en utilisant les Services, vous acceptez d'être lié par ces Conditions.",
+    section1Text: "Ces Conditions Générales ('Conditions') régissent votre accès et votre utilisation des sites Web, produits et services de Inbox agent('nous', 'notre'). En accédant ou en utilisant les Services, vous acceptez d'être lié par ces Conditions.",
     
     section2Title: "Acceptation des Conditions",
     section2Text: "En utilisant les Services, vous déclarez avoir lu, compris et accepté ces Conditions et notre Politique de Confidentialité. Si vous n'êtes pas d'accord, vous ne pouvez pas utiliser les Services.",
@@ -2649,31 +2649,31 @@ export const TermsPageTranslations = {
     obligation3: "Ne pas abuser des Services, tenter un accès non autorisé ou perturber les opérations.",
     
     section5Title: "Accès aux e-mails et confidentialité",
-    section5Intro: "Smartle nécessite l'accès à vos comptes e-mail connectés (tels que Gmail, Outlook ou IMAP) uniquement dans le but d'identifier, d'analyser et de filtrer les factures. Nous maintenons strictement la confidentialité des utilisateurs :",
+    section5Intro: "Inbox agentnécessite l'accès à vos comptes e-mail connectés (tels que Gmail, Outlook ou IMAP) uniquement dans le but d'identifier, d'analyser et de filtrer les factures. Nous maintenons strictement la confidentialité des utilisateurs :",
     privacy1: "Nous ne stockons pas vos e-mails personnels ni leur contenu.",
     privacy2: "Notre système traite uniquement les données de facture pertinentes et les met à disposition de votre comptable ou destinataire autorisé.",
     privacy3: "Vos identifiants de connexion et comptes e-mail connectés sont protégés par des pratiques de sécurité conformes aux normes de l'industrie.",
     
     section6Title: "Traitement des données",
-    section6Text: "Smartle traite les informations liées aux factures uniquement pour fournir nos Services. Nous ne vendons, ne partageons ni ne divulguons vos données personnelles à des tiers, sauf si la loi l'exige. En utilisant les Services, vous autorisez Smartle à accéder en toute sécurité et à traiter vos données e-mail à cette fin limitée.",
+    section6Text: "Inbox agenttraite les informations liées aux factures uniquement pour fournir nos Services. Nous ne vendons, ne partageons ni ne divulguons vos données personnelles à des tiers, sauf si la loi l'exige. En utilisant les Services, vous autorisez Inbox agentà accéder en toute sécurité et à traiter vos données e-mail à cette fin limitée.",
     
     section7Title: "Propriété intellectuelle",
-    section7Text: "Tous les contenus, marques, logos et autres propriétés intellectuelles des Services appartiennent à Smartle ou à ses concédants de licence et sont protégés par les lois applicables. Vous ne pouvez pas utiliser, copier ou distribuer un contenu sans autorisation écrite préalable.",
+    section7Text: "Tous les contenus, marques, logos et autres propriétés intellectuelles des Services appartiennent à Inbox agentou à ses concédants de licence et sont protégés par les lois applicables. Vous ne pouvez pas utiliser, copier ou distribuer un contenu sans autorisation écrite préalable.",
     
     section8Title: "Services tiers",
-    section8Text: "Les Services peuvent s'intégrer à des fournisseurs tiers tels que Google et Microsoft. Votre utilisation de ces intégrations est soumise à leurs conditions et politiques respectives. Smartle n'est pas responsable des pratiques des tiers.",
+    section8Text: "Les Services peuvent s'intégrer à des fournisseurs tiers tels que Google et Microsoft. Votre utilisation de ces intégrations est soumise à leurs conditions et politiques respectives. Inbox agentn'est pas responsable des pratiques des tiers.",
     
     section9Title: "Avertissements",
     section9Text: "Les Services sont fournis 'tels quels' et 'selon disponibilité' sans garantie d'aucune sorte, expresse ou implicite, y compris, mais sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier et de non-contrefaçon.",
     
     section10Title: "Limitation de responsabilité",
-    section10Text: "Dans toute la mesure permise par la loi, Smartle ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, ni de toute perte de profits, de revenus ou de données résultant de votre utilisation ou de votre incapacité à utiliser les Services.",
+    section10Text: "Dans toute la mesure permise par la loi, Inbox agentne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, ni de toute perte de profits, de revenus ou de données résultant de votre utilisation ou de votre incapacité à utiliser les Services.",
     
     section11Title: "Résiliation",
     section11Text: "Nous pouvons suspendre ou résilier votre accès aux Services à tout moment pour quelque raison que ce soit, y compris les violations de ces Conditions.",
     
     section12Title: "Loi applicable",
-    section12Text: "Ces Conditions sont régies et interprétées conformément aux lois de la juridiction dans laquelle Smartle opère, sans égard à ses principes de conflit de lois.",
+    section12Text: "Ces Conditions sont régies et interprétées conformément aux lois de la juridiction dans laquelle Inbox agentopère, sans égard à ses principes de conflit de lois.",
     
     section13Title: "Modifications de ces Conditions",
     section13Text: "Nous pouvons mettre à jour ces Conditions de temps en temps. Les modifications prendront effet dès leur publication. Votre utilisation continue des Services constitue l'acceptation des Conditions mises à jour.",
@@ -2686,7 +2686,7 @@ export const TermsPageTranslations = {
     lastUpdated: "18/01/2024",
     
     section1Title: "Introductie",
-    section1Text: "Deze Algemene Voorwaarden ('Voorwaarden') regelen uw toegang tot en gebruik van de websites, producten en diensten van Smartle ('wij', 'ons'). Door toegang te krijgen tot of gebruik te maken van de Diensten, gaat u akkoord met deze Voorwaarden.",
+    section1Text: "Deze Algemene Voorwaarden ('Voorwaarden') regelen uw toegang tot en gebruik van de websites, producten en diensten van Inbox agent('wij', 'ons'). Door toegang te krijgen tot of gebruik te maken van de Diensten, gaat u akkoord met deze Voorwaarden.",
     
     section2Title: "Aanvaarding van Voorwaarden",
     section2Text: "Door de Diensten te gebruiken, verklaart u dat u deze Voorwaarden en ons Privacybeleid heeft gelezen, begrepen en ermee akkoord gaat. Als u het niet eens bent, mag u de Diensten niet gebruiken.",
@@ -2700,31 +2700,31 @@ export const TermsPageTranslations = {
     obligation3: "Maak geen misbruik van de Diensten, probeer geen ongeautoriseerde toegang te krijgen of verstor de operaties niet.",
     
     section5Title: "E-mailtoegang en privacy",
-    section5Intro: "Smartle vereist toegang tot uw verbonden e-mailaccounts (zoals Gmail, Outlook of IMAP) uitsluitend met het doel facturen te identificeren, te analyseren en te filteren. We handhaven strikt de privacy van gebruikers:",
+    section5Intro: "Inbox agentvereist toegang tot uw verbonden e-mailaccounts (zoals Gmail, Outlook of IMAP) uitsluitend met het doel facturen te identificeren, te analyseren en te filteren. We handhaven strikt de privacy van gebruikers:",
     privacy1: "We slaan uw persoonlijke e-mails of e-mailinhoud niet op.",
     privacy2: "Ons systeem verwerkt alleen relevante factuurgegevens en maakt deze beschikbaar voor uw boekhouder of geautoriseerde ontvanger.",
     privacy3: "Uw inloggegevens en verbonden e-mailaccounts zijn beschermd met industriestandaard beveiligingspraktijken.",
     
     section6Title: "Gegevensverwerking",
-    section6Text: "Smartle verwerkt factuurgerelateerde informatie uitsluitend om onze Diensten te leveren. We verkopen, delen of verstrekken uw persoonlijke gegevens niet aan derden, behalve zoals vereist door de wet. Door de Diensten te gebruiken, machtigt u Smartle om uw e-mailgegevens veilig te openen en te verwerken voor dit beperkte doel.",
+    section6Text: "Inbox agentverwerkt factuurgerelateerde informatie uitsluitend om onze Diensten te leveren. We verkopen, delen of verstrekken uw persoonlijke gegevens niet aan derden, behalve zoals vereist door de wet. Door de Diensten te gebruiken, machtigt u Inbox agentom uw e-mailgegevens veilig te openen en te verwerken voor dit beperkte doel.",
     
     section7Title: "Intellectueel eigendom",
-    section7Text: "Alle inhoud, handelsmerken, logo's en andere intellectuele eigendom op de Diensten zijn eigendom van Smartle of haar licentiegevers en worden beschermd door toepasselijke wetten. U mag geen inhoud gebruiken, kopiëren of verspreiden zonder voorafgaande schriftelijke toestemming.",
+    section7Text: "Alle inhoud, handelsmerken, logo's en andere intellectuele eigendom op de Diensten zijn eigendom van Inbox agentof haar licentiegevers en worden beschermd door toepasselijke wetten. U mag geen inhoud gebruiken, kopiëren of verspreiden zonder voorafgaande schriftelijke toestemming.",
     
     section8Title: "Services van derden",
-    section8Text: "De Diensten kunnen worden geïntegreerd met externe providers zoals Google en Microsoft. Uw gebruik van deze integraties is onderworpen aan hun respectievelijke voorwaarden en beleid. Smartle is niet verantwoordelijk voor de praktijken van derden.",
+    section8Text: "De Diensten kunnen worden geïntegreerd met externe providers zoals Google en Microsoft. Uw gebruik van deze integraties is onderworpen aan hun respectievelijke voorwaarden en beleid. Inbox agentis niet verantwoordelijk voor de praktijken van derden.",
     
     section9Title: "Disclaimers",
     section9Text: "De Diensten worden geleverd op een 'as is' en 'as available' basis zonder garanties van welke aard dan ook, expliciet of impliciet, inclusief maar niet beperkt tot impliciete garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk.",
     
     section10Title: "Beperking van aansprakelijkheid",
-    section10Text: "Voor zover wettelijk toegestaan, zal Smartle niet aansprakelijk zijn voor indirecte, incidentele, speciale, gevolgschade of punitieve schade, of enig verlies van winst, inkomsten of gegevens als gevolg van uw gebruik van of onvermogen om de Diensten te gebruiken.",
+    section10Text: "Voor zover wettelijk toegestaan, zal Inbox agentniet aansprakelijk zijn voor indirecte, incidentele, speciale, gevolgschade of punitieve schade, of enig verlies van winst, inkomsten of gegevens als gevolg van uw gebruik van of onvermogen om de Diensten te gebruiken.",
     
     section11Title: "Beëindiging",
     section11Text: "We kunnen uw toegang tot de Diensten op elk moment om welke reden dan ook opschorten of beëindigen, inclusief schendingen van deze Voorwaarden.",
     
     section12Title: "Toepasselijk recht",
-    section12Text: "Deze Voorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van de jurisdictie waarin Smartle actief is, zonder rekening te houden met de conflictbeginselen ervan.",
+    section12Text: "Deze Voorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van de jurisdictie waarin Inbox agentactief is, zonder rekening te houden met de conflictbeginselen ervan.",
     
     section13Title: "Wijzigingen in deze Voorwaarden",
     section13Text: "We kunnen deze Voorwaarden van tijd tot tijd bijwerken. Wijzigingen worden van kracht bij publicatie. Uw voortgezet gebruik van de Diensten vormt aanvaarding van de bijgewerkte Voorwaarden.",
@@ -2744,7 +2744,7 @@ export const GDPRPageTranslations = {
     section1Text: "This GDPR Privacy Policy supplements Smartle's general Privacy Policy and applies to individuals located in the European Economic Area (EEA). It explains how we comply with the General Data Protection Regulation (GDPR).",
     
     section2Title: "Lawful Basis for Processing",
-    section2Intro: "Under GDPR, we process your personal data only when a lawful basis applies. Smartle relies on the following legal bases:",
+    section2Intro: "Under GDPR, we process your personal data only when a lawful basis applies. Inbox agentrelies on the following legal bases:",
     basisConsent: "Consent",
     basisConsentDesc: "When you explicitly grant us access to your email accounts to scan for invoices.",
     basisContractual: "Contractual Necessity",
@@ -2779,7 +2779,7 @@ export const GDPRPageTranslations = {
     section5Text: "We retain personal data only for as long as necessary to provide our services or comply with legal obligations. Once data is no longer needed, it will be securely deleted or anonymized.",
     
     section6Title: "Automated Processing",
-    section6Text: "Smartle uses automated systems to identify and extract invoices from your emails. We do not use automated decision-making that produces legal or similarly significant effects without human involvement.",
+    section6Text: "Inbox agentuses automated systems to identify and extract invoices from your emails. We do not use automated decision-making that produces legal or similarly significant effects without human involvement.",
     
     section7Title: "Complaints",
     section7Text1: "If you believe your GDPR rights have been violated, you have the right to complain to your local data protection authority in the EEA.",
@@ -2791,13 +2791,13 @@ export const GDPRPageTranslations = {
   fr: {
     title: "Politique de confidentialité RGPD",
     lastUpdated: "10/08/2025",
-    subtitle: "Cette politique de confidentialité RGPD complète la politique de confidentialité générale de Smartle et s'applique aux personnes situées dans l'Espace économique européen (EEE).",
+    subtitle: "Cette politique de confidentialité RGPD complète la politique de confidentialité générale de Inbox agentet s'applique aux personnes situées dans l'Espace économique européen (EEE).",
     
     section1Title: "Introduction",
-    section1Text: "Cette politique de confidentialité RGPD complète la politique de confidentialité générale de Smartle et s'applique aux personnes situées dans l'Espace économique européen (EEE). Elle explique comment nous nous conformons au Règlement général sur la protection des données (RGPD).",
+    section1Text: "Cette politique de confidentialité RGPD complète la politique de confidentialité générale de Inbox agentet s'applique aux personnes situées dans l'Espace économique européen (EEE). Elle explique comment nous nous conformons au Règlement général sur la protection des données (RGPD).",
     
     section2Title: "Base juridique du traitement",
-    section2Intro: "En vertu du RGPD, nous ne traitons vos données personnelles que lorsqu'une base juridique s'applique. Smartle s'appuie sur les bases juridiques suivantes :",
+    section2Intro: "En vertu du RGPD, nous ne traitons vos données personnelles que lorsqu'une base juridique s'applique. Inbox agents'appuie sur les bases juridiques suivantes :",
     basisConsent: "Consentement",
     basisConsentDesc: "Lorsque vous nous accordez explicitement l'accès à vos comptes e-mail pour rechercher des factures.",
     basisContractual: "Nécessité contractuelle",
@@ -2832,7 +2832,7 @@ export const GDPRPageTranslations = {
     section5Text: "Nous ne conservons les données personnelles que le temps nécessaire pour fournir nos services ou nous conformer aux obligations légales. Une fois que les données ne sont plus nécessaires, elles seront supprimées en toute sécurité ou anonymisées.",
     
     section6Title: "Traitement automatisé",
-    section6Text: "Smartle utilise des systèmes automatisés pour identifier et extraire les factures de vos e-mails. Nous n'utilisons pas de prise de décision automatisée qui produit des effets juridiques ou similaires sans intervention humaine.",
+    section6Text: "Inbox agentutilise des systèmes automatisés pour identifier et extraire les factures de vos e-mails. Nous n'utilisons pas de prise de décision automatisée qui produit des effets juridiques ou similaires sans intervention humaine.",
     
     section7Title: "Plaintes",
     section7Text1: "Si vous pensez que vos droits RGPD ont été violés, vous avez le droit de déposer une plainte auprès de votre autorité locale de protection des données dans l'EEE.",
@@ -2844,13 +2844,13 @@ export const GDPRPageTranslations = {
   nl: {
     title: "AVG Privacybeleid",
     lastUpdated: "10/08/2025",
-    subtitle: "Dit AVG-privacybeleid vormt een aanvulling op het algemene privacybeleid van Smartle en is van toepassing op personen in de Europese Economische Ruimte (EER).",
+    subtitle: "Dit AVG-privacybeleid vormt een aanvulling op het algemene privacybeleid van Inbox agenten is van toepassing op personen in de Europese Economische Ruimte (EER).",
     
     section1Title: "Introductie",
-    section1Text: "Dit AVG-privacybeleid vormt een aanvulling op het algemene privacybeleid van Smartle en is van toepassing op personen in de Europese Economische Ruimte (EER). Het legt uit hoe we voldoen aan de Algemene Verordening Gegevensbescherming (AVG).",
+    section1Text: "Dit AVG-privacybeleid vormt een aanvulling op het algemene privacybeleid van Inbox agenten is van toepassing op personen in de Europese Economische Ruimte (EER). Het legt uit hoe we voldoen aan de Algemene Verordening Gegevensbescherming (AVG).",
     
     section2Title: "Rechtsgrondslag voor verwerking",
-    section2Intro: "Onder de AVG verwerken we uw persoonlijke gegevens alleen wanneer een rechtsgrondslag van toepassing is. Smartle vertrouwt op de volgende rechtsgronden:",
+    section2Intro: "Onder de AVG verwerken we uw persoonlijke gegevens alleen wanneer een rechtsgrondslag van toepassing is. Inbox agentvertrouwt op de volgende rechtsgronden:",
     basisConsent: "Toestemming",
     basisConsentDesc: "Wanneer u ons expliciet toegang geeft tot uw e-mailaccounts om te scannen op facturen.",
     basisContractual: "Contractuele noodzaak",
@@ -2885,7 +2885,7 @@ export const GDPRPageTranslations = {
     section5Text: "We bewaren persoonlijke gegevens alleen zolang als nodig is om onze services te leveren of te voldoen aan wettelijke verplichtingen. Zodra gegevens niet langer nodig zijn, worden ze veilig verwijderd of geanonimiseerd.",
     
     section6Title: "Geautomatiseerde verwerking",
-    section6Text: "Smartle gebruikt geautomatiseerde systemen om facturen uit uw e-mails te identificeren en te extraheren. We gebruiken geen geautomatiseerde besluitvorming die juridische of vergelijkbaar significante effecten produceert zonder menselijke betrokkenheid.",
+    section6Text: "Inbox agentgebruikt geautomatiseerde systemen om facturen uit uw e-mails te identificeren en te extraheren. We gebruiken geen geautomatiseerde besluitvorming die juridische of vergelijkbaar significante effecten produceert zonder menselijke betrokkenheid.",
     
     section7Title: "Klachten",
     section7Text1: "Als u denkt dat uw AVG-rechten zijn geschonden, heeft u het recht om een klacht in te dienen bij uw lokale autoriteit voor gegevensbescherming in de EER.",

@@ -144,7 +144,7 @@ export default function EmailIntegration() {
     <main id="main-content" className="flex-1 p-4 sm:p-8">
       <div id="page-header" className="mb-8">
         <h1 className="text-xl sm:text-2xl mb-2" style={{ color: 'var(--card-accent)' }}>{t.emailIntegration}</h1>
-        <p className="text-neutral-600 text-sm sm:text-base">{t.emailIntegrationDesc}</p>
+        <p className="text-neutral-600 text-sm sm:text-base">Integrate your email</p>
       </div>
 
       <div
@@ -155,7 +155,7 @@ export default function EmailIntegration() {
         {/* First-Time Connection View */}
         <div id="connect-options">
           <h2 className="text-xl mb-3" style={{ color: 'var(--card-accent)' }}>{t.yourEmailConnection}</h2>
-          <p className="text-neutral-600 mb-6 text-sm sm:text-base">{t.yourEmailConnectionDesc}</p>
+          {/* <p className="text-neutral-600 mb-6 text-sm sm:text-base">{t.yourEmailConnectionDesc}</p> */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6">
             <button
               onClick={() => {
@@ -233,9 +233,9 @@ export default function EmailIntegration() {
               </div>
             </div>
           )}
-          <div className="text-xs text-neutral-500 mt-2">
+          {/* <div className="text-xs text-neutral-500 mt-2">
             {t.disclaimerSmartle}
-          </div>
+          </div> */}
         </div>
         {/* END First-Time Connection View */}
 
@@ -271,9 +271,9 @@ export default function EmailIntegration() {
               Disconnect Gmail
             </button>
           </div>
-          <div className="text-xs text-neutral-500 mt-2">
+          {/* <div className="text-xs text-neutral-500 mt-2">
             Smartle only reads invoices. Your emails remain private.
-          </div>
+          </div> */}
         </div>
       </div>
       <div
