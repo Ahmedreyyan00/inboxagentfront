@@ -93,7 +93,7 @@ const GmailAuthModal: React.FC<GmailAuthModalProps> = ({
           <p className="text-neutral-600 text-center text-sm sm:text-base mb-2">
             {isConnected
               ? "Manage your connected Gmail accounts below."
-              : "Smartle uses Google's secure OAuth 2.0 system to access only invoice-related emails. Your personal messages remain private and untouched."}
+              : "Inbox Agent uses Google's secure OAuth 2.0 system to access only invoice-related emails. Your personal messages remain private and untouched."}
           </p>
         </div>
 
