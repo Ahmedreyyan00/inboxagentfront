@@ -23,8 +23,8 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "Smartle",
-  description: "Smartle",
+  title: "Inbox Agent",
+  description: "Inbox Agent",
 };
 
 export default function RootLayout({
