@@ -7,6 +7,9 @@ import Api from "@/lib/Api";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { getSession } from "next-auth/react";
+import Lottie from "lottie-react";
+import scanningAnimation from "../../../public/animations/Loading Animation.json";
+
 
 type EmailItem = {
   id: string;
@@ -105,7 +108,6 @@ export default function EmailList() {
         <h1 className="text-xl sm:text-2xl mb-2" style={{ color: 'var(--card-accent)' }}>All Emails</h1>
         <p className="text-neutral-600 text-sm sm:text-base">Recent emails fetched from your connected account(s).</p>
       </div>
-
       <div className="mb-4 flex flex-col sm:flex-row gap-2 sm:items-center">
         <button
           onClick={handleScanSafe}
@@ -123,47 +125,52 @@ export default function EmailList() {
           style={{ borderColor: 'var(--card-border-light)' }}
         />
       </div>
-
-      <div className="rounded-lg border-2 overflow-x-auto" style={{ backgroundColor: 'var(--card-bg-light)', borderColor: 'var(--card-border-light)' }}>
-        {loading ? (
-          <div className="p-6">Loading…</div>
-        ) : emails.length === 0 ? (
-          <div className="p-6">No emails found</div>
-        ) : (
-          <table className="w-full min-w-[720px]">
-            <thead className="border-b-2" style={{ borderColor: 'var(--card-border-light)' }}>
-              <tr>
-                <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>Date</th>
-                <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>From</th>
-                <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>Subject</th>
-                <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>Actions</th>
-              </tr>
-            </thead>
-            <tbody>
-              {emails.map((email) => (
-                <tr key={email.id} className="border-b" style={{ borderColor: 'var(--card-border-light)' }}>
-                  <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.date ? dayjs(email.date).format('DD/MM/YYYY HH:mm') : ''}</td>
-                  <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.from || ''}</td>
-                  <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.subject || ''}</td>
-                  <td className="px-4 py-3">
-                    <button title="View Email" onClick={() => openModal(email)}>
-                      <FaEye style={{ color: '#3b82f6' }} />
-                    </button>
-                  </td>
+      {scanning ? (
+        <div className="w-full flex justify-center">
+          <Lottie animationData={scanningAnimation} loop={true} style={{ width: 600, height: 600 }} />
+        </div>
+      ) : (
+        <div className="rounded-lg border-2 overflow-x-auto" style={{ backgroundColor: 'var(--card-bg-light)', borderColor: 'var(--card-border-light)' }}>
+          {loading ? (
+            <div className="p-6">Loading…</div>
+          ) : emails.length === 0 ? (
+            <div className="p-6">No emails found</div>
+          ) : (
+            <table className="w-full min-w-[720px]">
+              <thead className="border-b-2" style={{ borderColor: 'var(--card-border-light)' }}>
+                <tr>
+                  <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>Date</th>
+                  <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>From</th>
+                  <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>Subject</th>
+                  <th className="px-4 py-3 text-left" style={{ color: 'var(--card-accent)' }}>Actions</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
+              </thead>
+              <tbody>
+                {emails.map((email) => (
+                  <tr key={email.id} className="border-b" style={{ borderColor: 'var(--card-border-light)' }}>
+                    <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.date ? dayjs(email.date).format('DD/MM/YYYY HH:mm') : ''}</td>
+                    <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.from || ''}</td>
+                    <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.subject || ''}</td>
+                    <td className="px-4 py-3">
+                      <button title="View Email" onClick={() => openModal(email)}>
+                        <FaEye style={{ color: '#3b82f6' }} />
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
 
-        <div className="p-4 flex items-center justify-between border-t-2" style={{ borderColor: 'var(--card-border-light)' }}>
-          <div className="text-sm" style={{ color: 'var(--card-accent)' }}>Page {page} of {totalPages}</div>
-          <div className="flex gap-2">
-            <button disabled={page===1} onClick={() => setPage(Math.max(1, page-1))} className="px-3 py-1 border-2 rounded" style={{ borderColor: 'var(--card-accent)', color: 'var(--card-accent)' }}>Prev</button>
-            <button disabled={page===totalPages} onClick={() => setPage(Math.min(totalPages, page+1))} className="px-3 py-1 border-2 rounded" style={{ borderColor: 'var(--card-accent)', color: 'var(--card-accent)' }}>Next</button>
+          <div className="p-4 flex items-center justify-between border-t-2" style={{ borderColor: 'var(--card-border-light)' }}>
+            <div className="text-sm" style={{ color: 'var(--card-accent)' }}>Page {page} of {totalPages}</div>
+            <div className="flex gap-2">
+              <button disabled={page===1} onClick={() => setPage(Math.max(1, page-1))} className="px-3 py-1 border-2 rounded" style={{ borderColor: 'var(--card-accent)', color: 'var(--card-accent)' }}>Prev</button>
+              <button disabled={page===totalPages} onClick={() => setPage(Math.min(totalPages, page+1))} className="px-3 py-1 border-2 rounded" style={{ borderColor: 'var(--card-accent)', color: 'var(--card-accent)' }}>Next</button>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {open && selected && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" onClick={closeModal}>

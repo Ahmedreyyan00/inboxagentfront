@@ -201,8 +201,8 @@ export default function EmailIntegration() {
                 </div>
               )}
             </button>
-            {/*
-            <button
+            
+            {/* <button
               onClick={() => setShowMicrosoftModal(true)}
               className="flex cursor-pointer items-center gap-2 px-5 py-3 border-2 rounded-lg w-full sm:w-1/3 justify-center group transition-all hover:shadow-sm"
               style={{ borderColor: 'var(--card-border-light)', backgroundColor: 'white' }}
@@ -218,7 +218,7 @@ export default function EmailIntegration() {
                   <span className="text-xs font-medium">Reconnect</span>
                 </div>
               )}
-            </button>
+            </button> */}
             <button
               onClick={() => setShowOtherEmailModal(true)}
               className="flex cursor-pointer items-center gap-2 px-5 py-3 border-2 rounded-lg w-full sm:w-1/3 justify-center group transition-all hover:shadow-sm"
@@ -230,7 +230,7 @@ export default function EmailIntegration() {
                 <div className="text-green-600">Connected</div>
               )}
             </button>
-            */}
+           
           </div>
           {emailStatus?.google?.some((google) => google.isActive && !google.isReauthRequired) && (
             <div className="mb-4">
