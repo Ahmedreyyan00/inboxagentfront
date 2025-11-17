@@ -28,7 +28,7 @@ export default function DynamicLayoutWrapper({ children }: DynamicLayoutWrapperP
       const titleMap: Record<string, keyof typeof t> = {
         "Dashboard": "dashboard",
         "Email Integration": "emailIntegration",
-        "Invoice History": "invoiceHistory",
+        "Real State Emails": "realStateEmails",
         "Automation Settings": "automationSettings",
         "Account Settings": "accountSettings",
         "Help Center": "helpCenter",
