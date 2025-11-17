@@ -9,6 +9,7 @@ import axios from "axios";
 import { getSession } from "next-auth/react";
 import Lottie from "lottie-react";
 import scanningAnimation from "../../../public/animations/Loading Animation.json";
+import { FaPen } from "react-icons/fa";
 
 
 type EmailItem = {
@@ -28,6 +29,12 @@ export default function EmailList() {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<EmailItem | null>(null);
   const [scanning, setScanning] = useState(false);
+
+  const [draftOpen, setDraftOpen] = useState(false);
+  const [draftEmail, setDraftEmail] = useState<EmailItem | null>(null);
+  const [draftBody, setDraftBody] = useState("");
+  const [creating, setCreating] = useState(false);
+
 
   useEffect(() => {
     fetchEmails();
@@ -102,6 +109,20 @@ export default function EmailList() {
     setSelected(null);
   };
 
+  const openDraftModal = (email: EmailItem) => {
+    setDraftEmail(email);
+    setDraftBody("");
+    setDraftOpen(true);
+  };
+  
+  const closeDraftModal = () => {
+    setDraftOpen(false);
+    setDraftEmail(null);
+    setDraftBody("");
+  };
+
+  
+
   return (
     <main className="p-4 sm:p-8">
       <div className="mb-6">
@@ -151,11 +172,20 @@ export default function EmailList() {
                     <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.date ? dayjs(email.date).format('DD/MM/YYYY HH:mm') : ''}</td>
                     <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.from || ''}</td>
                     <td className="px-4 py-3" style={{ color: '#1e40af' }}>{email.subject || ''}</td>
-                    <td className="px-4 py-3">
+                    <td className="px-4 py-3 flex gap-3">
                       <button title="View Email" onClick={() => openModal(email)}>
-                        <FaEye style={{ color: '#3b82f6' }} />
+                        <FaEye style={{ color: '#3b82f6', cursor: 'pointer' }} />
                       </button>
+
+                      <button
+                        title="Create Draft"
+                        onClick={() => openDraftModal(email)}
+                      >
+                        <FaPen style={{ color: '#16a34a', cursor: 'pointer' }} />
+                      </button>
+
                     </td>
+
                   </tr>
                 ))}
               </tbody>
@@ -196,6 +226,64 @@ export default function EmailList() {
           </div>
         </div>
       )}
+
+      {draftOpen && draftEmail && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+          <div className="bg-white rounded-lg shadow-lg max-w-2xl w-full p-6">
+            <h2 className="text-xl font-semibold mb-4">Create Gmail Draft</h2>
+
+            <p className="text-sm mb-2"><strong>Reply To:</strong> {draftEmail.from}</p>
+            <p className="text-sm mb-4"><strong>Subject:</strong> {draftEmail.subject}</p>
+
+            <textarea
+              className="w-full h-48 p-3 border rounded resize-none"
+              placeholder="Type your draft email here..."
+              value={draftBody}
+              onChange={(e) => setDraftBody(e.target.value)}
+            />
+
+            <div className="flex justify-end gap-3 mt-4">
+              <button className="px-4 py-2 border rounded" onClick={closeDraftModal}>
+                Cancel
+              </button>
+
+              <button
+                className="px-4 py-2 bg-blue-600 text-white rounded"
+                disabled={creating}
+                onClick={async () => {
+                  try {
+                    setCreating(true);
+                    const session = await getSession();
+                    const baseURL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
+                    await axios.post(
+                      `${baseURL}/api/mail/create-draft`,
+                      {
+                        to: draftEmail.from,
+                        subject: draftEmail.subject,
+                        html: draftBody,
+                        labels: ["inbox-agent", "real-estate"],
+                      },
+                      { headers: { Authorization: session?.accessToken || "" } }
+                    );
+
+                    toast.success("Draft created in Gmail");
+                    closeDraftModal();
+                  } catch (err: any) {
+                    console.error(err);
+                    toast.error(err?.response?.data?.error || "Failed to create draft");
+                  } finally {
+                    setCreating(false);
+                  }
+                }}
+              >
+                {creating ? "Saving..." : "Create Draft"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
     </main>
   );
 }
